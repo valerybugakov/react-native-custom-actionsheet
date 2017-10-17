@@ -1,0 +1,58 @@
+{
+  "name": "react-native-custom-actionsheet",
+  "version": "0.0.1",
+  "description": "Cross platform ActionSheet. This component implements a custom ActionSheet  and provides the same way to drawing it on the defferent platforms(iOS and Android). Actually, In order to keep the best effect, it still uses the ActionSheetIOS on iOS.",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib",
+    "test": "jest --no-cache"
+  },
+  "jest": {
+    "preset": "react-native",
+    "modulePathIgnorePatterns": [
+      "<rootDir>/Examples"
+    ]
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valerybugakov/react-native-custom-actionsheet.git"
+  },
+  "keywords": [
+    "actionsheet",
+    "action sheet",
+    "react-native action-sheet",
+    "react-native custom action-sheet"
+  ],
+  "author": "Valery Bugakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valerybugakov/react-native-custom-actionsheet/issues"
+  },
+  "homepage": "https://github.com/valerybugakov/react-native-custom-actionsheet#readme",
+  "peerDependencies": {
+    "prop-types": ">=15.4.0",
+    "react": ">=15.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react-native": "^4.0.0",
+    "eslint": "^4.7.2",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^21.2.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-native": "0.39.0",
+    "react-test-renderer": "15.4.0"
+  }
+}

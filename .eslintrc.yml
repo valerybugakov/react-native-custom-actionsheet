@@ -1,0 +1,13 @@
+---
+  extends: standard
+  parser: babel-eslint
+
+  plugins:
+    - babel
+    - react
+
+  rules:
+    comma-dangle: [2, 'always-multiline']
+    space-before-function-paren: [2, 'never']
+    no-return-assign: 0
+    react/jsx-uses-vars: 2
