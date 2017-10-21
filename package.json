@@ -10,7 +10,7 @@
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
-      "<rootDir>/Examples"
+      "<rootDir>/examples"
     ]
   },
   "files": [
@@ -52,7 +52,7 @@
     "jest": "^21.2.1",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
-    "react-native": "0.39.0",
+    "react-native": "^0.49.3",
     "react-test-renderer": "15.4.0"
   }
 }
