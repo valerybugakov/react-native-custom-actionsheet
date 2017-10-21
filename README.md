@@ -3,8 +3,7 @@ Cross platform ActionSheet. This component implements a custom ActionSheet and p
 
 This project is based on [react-native-actionsheet](https://github.com/beefe/react-native-actionsheet) by [beefe](https://github.com/beefe).
 
-<img height="500" src="./examples/ios.png">
-<img height="500" src="./examples/android.png">
+<img height="500" src="./examples/ios.gif"> <img height="500" src="./examples/android.gif">
 
 # Installation
 
